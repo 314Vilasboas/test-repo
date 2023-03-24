@@ -6,3 +6,6 @@ class Goblin(Monstro):
         super().__init__(tipo_do_monstro="Goblin",pontos_de_ataque=pontos_de_ataque,pontos_de_vida=pontos_de_vida)
         self.inteligencia = inteligencia_do_goblin
         self.tamanho = tamanho_do_goblin
+
+    def inflingir_dano(self):
+        return self.inteligencia + super().inflingir_dano()
