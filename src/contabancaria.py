@@ -14,3 +14,6 @@ class ContaDoBanco:
 
     def consultar_saldo(self):
         print(f"saldo atual: R&{self.saldo:.2f}")
+
+
+# CODIGO EXTRA UTILIZANDO ESSA CLASSE NO MenuDoBanco.py INCLUSO NO REPOSITORIO DO GIT
